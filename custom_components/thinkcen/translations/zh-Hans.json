@@ -1,0 +1,61 @@
+{
+  "config": {
+    "step": {
+      "mqtt_url": {
+        "title": "ThinkCen",
+        "description": "提供的小度语音控制HomeAssistant服务，支持家庭版和酒店版音箱\n联系经销商协助使用帮助",
+        "data": {
+          "mqtt_url": "User Token"
+        }
+      },
+      "entity_types": {
+        "title": "选择实体类型",
+        "description": "选择您想要同步的实体类型",
+        "data": {
+          "entity_types": "实体类型"
+        }
+      },
+      "entities": {
+        "title": "选择实体",
+        "description": "选择您想要同步的具体实体",
+        "data": {
+          "entities": "实体"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "连接失败，请检查您的Token",
+      "invalid_user_token": "无效的Token",
+      "no_entity_types_selected": "请至少选择一种实体类型",
+      "no_entities_selected": "请至少选择一个实体",
+      "Value should be a list": "请至少选择一个选项"
+    },
+    "abort": {
+      "already_configured": "设备已经配置"
+    }
+  },
+  "options": {
+    "step": {
+      "entity_types": {
+        "title": "选择实体类型",
+        "description": "选择您想要同步的实体类型",
+        "data": {
+          "entity_types": "实体类型"
+        }
+      },
+      "entities": {
+        "title": "选择实体",
+        "description": "选择您想要同步的具体实体",
+        "data": {
+          "entities": "实体"
+        }
+      }
+    },
+    "error": {
+      "no_entity_types_selected": "请至少选择一种实体类型",
+      "no_entities_selected": "请至少选择一个实体",
+      "Value should be a list": "请至少选择一个选项"
+    }
+  },
+  "title": "ThinkCen"
+} 
